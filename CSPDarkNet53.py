@@ -3,6 +3,7 @@ from torch import nn
 from torch.nn import functional as F
 from torch.autograd import Variable as V
 
+#mish activation function
 class Mish(nn.Module):
     def __init__(self):
         super(Mish,self).__init__()
